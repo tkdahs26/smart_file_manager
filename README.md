@@ -38,7 +38,7 @@ switch-case로 메소드를 구분했습니다
 
 
 
-<img width="1910" height="749" alt="file4" src="https://github.com/user-attachments/assets/cb1259aa-b157-459e-90da-6027e460e69d" />전체 읽기 선택 readLogs() 실행: 파일명을 입력하면 글 쓴 시간과 전체 텍스트를 터미널에 출력합니다
+<img width="1910" height="749" alt="file4" src="https://github.com/user-attachments/assets/cb1259aa-b157-459e-90da-6027e460e69d" />전체 읽기 선택 readLogs() 실행: 파일명을 입력하면 vector.pushback을 활용해 전체 텍스트를 터미널에 출력합니다 
 
 <img width="1910" height="749" alt="file5" src="https://github.com/user-attachments/assets/3bcf9197-34b3-4f11-b09c-5bfff54418a7" /> 이름바꾸기 선택 rename_File()실행: 파일 선택 후 원하는 이름을 입력하면 이름을 바꿉니다.
 
