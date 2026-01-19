@@ -30,6 +30,17 @@ switch-case로 메소드를 구분했습니다
 
 
 
+<img width="1910" height="749" alt="file1" src="https://github.com/user-attachments/assets/7f8ad478-da6a-4ed8-9f30-faa02ff408c6" /> 실행 화면
+<img width="1910" height="749" alt="file2" src="https://github.com/user-attachments/assets/086f339a-6b12-4087-8b4e-c193c74310f1" /> 파일만들기선택 make_or_open_File 메소드 실행: 입력값 파일이있으면 메모리에 등록하고 없으면 파일 만드는 함수를 실행합니다.만들때 스마트포인터가 할당됩니다. testfile.txt가 생성된 것을 확인할 수 있습니다. 
+
+
+<img width="1910" height="749" alt="file3" src="https://github.com/user-attachments/assets/41932ae4-b1ca-41e2-a511-bbd927a7c6fe" /> 텍스트 쓰기 선택 write_File 실행: 파일에 타임스탬프와 함께 파일에 내용을 쓸 수 있습니다 
+
+
+<img width="1910" height="749" alt="file4" src="https://github.com/user-attachments/assets/7369f5bd-ac66-4c05-a9fd-c066cd6271c1" />전체 읽기 선택 readLogs() 실행: 파일명을 입력하면 글 쓴 시간과 전체 텍스트를 반환합니다
+
+<img width="1910" height="749" alt="file5" src="https://github.com/user-attachments/assets/3bcf9197-34b3-4f11-b09c-5bfff54418a7" /> 이름바꾸기 선택 rename_File()실행: 파일 선택 후 원하는 이름을 입력하면 이름을 바꿉니다.
+
 
 
 
