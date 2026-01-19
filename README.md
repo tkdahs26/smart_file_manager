@@ -37,7 +37,7 @@ switch-case로 메소드를 구분했습니다
 <img width="1910" height="749" alt="file3" src="https://github.com/user-attachments/assets/41932ae4-b1ca-41e2-a511-bbd927a7c6fe" /> 텍스트 쓰기 선택 write_File 실행: 파일명과 내용을 입력해chrono 라이브러리를 활용한 현재시각과 함께 파일에 내용을 쓸 수 있습니다 
 
 
-<img width="1910" height="749" alt="file4" src="https://github.com/user-attachments/assets/7369f5bd-ac66-4c05-a9fd-c066cd6271c1" />전체 읽기 선택 readLogs() 실행: 파일명을 입력하면 글 쓴 시간과 전체 텍스트를 반환합니다
+<img width="1910" height="749" alt="file4" src="https://github.com/user-attachments/assets/7369f5bd-ac66-4c05-a9fd-c066cd6271c1" />전체 읽기 선택 readLogs() 실행: 파일명을 입력하면 글 쓴 시간과 전체 텍스트를 터미널에 출력합니다
 
 <img width="1910" height="749" alt="file5" src="https://github.com/user-attachments/assets/3bcf9197-34b3-4f11-b09c-5bfff54418a7" /> 이름바꾸기 선택 rename_File()실행: 파일 선택 후 원하는 이름을 입력하면 이름을 바꿉니다.
 
