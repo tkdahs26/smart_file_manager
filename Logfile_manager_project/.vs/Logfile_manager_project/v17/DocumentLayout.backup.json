@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bsm\\Downloads\\no_caption\\Logfile_manager_project_origin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72C42DBF-BBED-4D19-BD76-703854DF84B1}|Logfile_manager_project\\Logfile_manager_project.vcxproj|C:\\Users\\bsm\\Downloads\\no_caption\\Logfile_manager_project_origin\\Logfile_manager_project\\Logfile_manager_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72C42DBF-BBED-4D19-BD76-703854DF84B1}|Logfile_manager_project\\Logfile_manager_project.vcxproj|solutionrelative:Logfile_manager_project\\Logfile_manager_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C42DBF-BBED-4D19-BD76-703854DF84B1}|Logfile_manager_project\\Logfile_manager_project.vcxproj|C:\\Users\\bsm\\Downloads\\no_caption\\Logfile_manager_project_origin\\Logfile_manager_project\\Logfile_manager_project_input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72C42DBF-BBED-4D19-BD76-703854DF84B1}|Logfile_manager_project\\Logfile_manager_project.vcxproj|solutionrelative:Logfile_manager_project\\Logfile_manager_project_input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logfile_manager_project_input.cpp",
+              "DocumentMoniker": "C:\\Users\\bsm\\Downloads\\no_caption\\Logfile_manager_project_origin\\Logfile_manager_project\\Logfile_manager_project_input.cpp",
+              "RelativeDocumentMoniker": "Logfile_manager_project\\Logfile_manager_project_input.cpp",
+              "ToolTip": "C:\\Users\\bsm\\Downloads\\no_caption\\Logfile_manager_project_origin\\Logfile_manager_project\\Logfile_manager_project_input.cpp",
+              "RelativeToolTip": "Logfile_manager_project\\Logfile_manager_project_input.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-10T02:02:08.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Logfile_manager_project.cpp",
+              "DocumentMoniker": "C:\\Users\\bsm\\Downloads\\no_caption\\Logfile_manager_project_origin\\Logfile_manager_project\\Logfile_manager_project.cpp",
+              "RelativeDocumentMoniker": "Logfile_manager_project\\Logfile_manager_project.cpp",
+              "ToolTip": "C:\\Users\\bsm\\Downloads\\no_caption\\Logfile_manager_project_origin\\Logfile_manager_project\\Logfile_manager_project.cpp",
+              "RelativeToolTip": "Logfile_manager_project\\Logfile_manager_project.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-10T00:37:38.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
