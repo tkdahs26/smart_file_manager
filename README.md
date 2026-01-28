@@ -12,7 +12,7 @@ Tool: Visual Studio 2022 <br>
 
 
 헤더 파일을 만들고 이 클래스가 어떤 기능을 제공하는지 한눈에 파악할 수 있도록 설계<br>
-헤더 파일 Logfile_manager_project.h<br>
+ 
 구현 파일 Logfile_manager_project.cpp<br>
 실행 파일 Logfile_manager_project_input.cpp<br>
 
