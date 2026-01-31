@@ -20,9 +20,8 @@ C++ 기반 파일 생성 및 관리 프로그램입니다.
 
 특징
 std::unique_ptr 스마트포인터를 사용해 파일 스트림의 단일 소유권 관리
-C++ 표준 라이브러리filesystem, fstream 활용
-헤더 / 구현 파일 분리를 통한 구조 정리
-
+C++ 표준 라이브러리: filesystem, fstream 파일 관리로 활용, chrono 를 활용해 시간 정보 처리
+헤더 / 구현 파일 분리를 통한 구조 정리 
 
 배운 점
  참조(&)를 활용해 객체를 효율적으로 수정
@@ -55,7 +54,11 @@ C++ 표준 라이브러리filesystem, fstream 활용
 
  <br><br><br>
 
-<img width="1910" height="749" alt="file3" src="https://github.com/user-attachments/assets/41932ae4-b1ca-41e2-a511-bbd927a7c6fe" /> 텍스트 쓰기 선택 write_File 실행:find()를 사용해 메모리에 파일이 있다면 파일명과 내용을 입력해chrono 라이브러리를 활용한 현재시각과 함께 파일에 내용을 쓸 수 있습니다 
+<img width="1910" height="749" alt="file3" src="https://github.com/user-attachments/assets/41932ae4-b1ca-41e2-a511-bbd927a7c6fe" /> 
+텍스트 쓰기 메뉴를 선택하면 지정한 파일에 입력한 내용을 저장할 수 있습니다.
+
+아래 예시에서는 testfile.txt 파일에 입력한 텍스트와 함께 현재 시간이 기록된 것을 확인할 수 있습니다.
+텍스트 쓰기 선택 write_File 실행:find()를 사용해 메모리에 파일이 있다면 파일명과 내용을 입력해chrono 라이브러리를 활용한 현재시각과 함께 파일에 내용을 쓸 수 있습니다 
 <br><br><br>
 
 
