@@ -13,7 +13,7 @@ C++ 기반 파일 생성 및 관리 프로그램입니다.
  
 주요 기능
  switch-case 사용자 입력을 받아 다음의 기능을 선택해 실행
- 파일 생성 및 열기
+ 파일 생성과 열기
  파일 내용 쓰기 / 읽기
  파일 삭제 및 이름 변경 
 
@@ -47,8 +47,13 @@ C++ 표준 라이브러리filesystem, fstream 활용
 
 <img width="1910" height="749" alt="file1" src="https://github.com/user-attachments/assets/7f8ad478-da6a-4ed8-9f30-faa02ff408c6" /> 실행 화면
 <br><br><br>
-<img width="1910" height="749" alt="file2" src="https://github.com/user-attachments/assets/086f339a-6b12-4087-8b4e-c193c74310f1" /> 파일만들기선택 make_or_open_File 메소드 실행: 입력값 파일이있으면 메모리에 등록하고 없으면 파일 만드는 함수를 실행합니다.이때  find() == end()를 사용해서 해당 파일이 이미 메모리에 있는지 확인하고 없다면 만들때 스마트포인터가 할당됩니다. testfile.txt가 생성된 것을 확인할 수 있습니다.
-<br><br><br>
+<img width="1910" height="749" alt="file2" src="https://github.com/user-attachments/assets/086f339a-6b12-4087-8b4e-c193c74310f1" />
+파일 만들기 메뉴를 선택하면 make_or_open_File 메소드 실행,
+입력한 파일 이름이 이미 존재하는 경우에는 파일을 열고 존재하지 않는 경우에는 새 파일을 생성합니다.
+
+ 결과에서 testfile.txt 파일이 생성된 것을 폴더에서 확인할 수 있습니다.
+
+ <br><br><br>
 
 <img width="1910" height="749" alt="file3" src="https://github.com/user-attachments/assets/41932ae4-b1ca-41e2-a511-bbd927a7c6fe" /> 텍스트 쓰기 선택 write_File 실행:find()를 사용해 메모리에 파일이 있다면 파일명과 내용을 입력해chrono 라이브러리를 활용한 현재시각과 함께 파일에 내용을 쓸 수 있습니다 
 <br><br><br>
