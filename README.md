@@ -20,7 +20,7 @@ C++ 기반 파일 생성 및 관리 프로그램입니다.
 
 특징
 std::unique_ptr 스마트포인터를 사용해 파일 스트림의 단일 소유권 관리
-C++ 표준 라이브러리: filesystem, fstream 파일 관리로 활용, chrono 를 활용해 시간 정보 처리
+C++ 표준 라이브러리: filesystem, fstream 파일 관리(파일생성, 이름변경)로 활용, chrono 를 활용해 시간 정보 처리
 헤더 / 구현 파일 분리를 통한 구조 정리 
 
 배운 점
@@ -62,12 +62,17 @@ C++ 표준 라이브러리: filesystem, fstream 파일 관리로 활용, chrono 
 <br><br><br>
 
 
-<img width="1910" height="749" alt="file4" src="https://github.com/user-attachments/assets/cb1259aa-b157-459e-90da-6027e460e69d" />전체 읽기 선택 readLogs() 실행: 파일명을 입력하면 vector.pushback을 활용해 전체 텍스트를 터미널에 출력합니다 
+<img width="1910" height="749" alt="file4" src="https://github.com/user-attachments/assets/cb1259aa-b157-459e-90da-6027e460e69d" />
+파일 전체 읽기를 선택하면 지정한 파일의 내용을 모두 읽어 터미널에 출력하도록 구현.
+
+아래 예시에서는 testfile.txt 파일의 전체 내용이 정상적으로 출력되는 것을 확인할 수 있습니다.
+
+
 <br><br><br>
-<img width="1910" height="749" alt="file5" src="https://github.com/user-attachments/assets/3bcf9197-34b3-4f11-b09c-5bfff54418a7" /> 이름바꾸기 선택 rename_File()실행:
-이름바꾸기전 erase를 실행해서 메모리에 있는 파일을 일단 지웁니다. rename함수를 사용해서 error_code가 없다면 이름바꾸기에 성공한 파일을 메모리에 등록하고 error_code가 있으면 바꾸기 전 파일을 메모리에 등록합니다
+<img width="1910" height="749" alt="file5" src="https://github.com/user-attachments/assets/3bcf9197-34b3-4f11-b09c-5bfff54418a7" />
+파일 이름 변경 메뉴를 선택하면 기존 파일의 이름을 새로운 이름으로 변경할 수 있습니다.
 
-
+아래 예시에서는 testfile.txt 파일의 이름을 errorfile.txt로 변경한 결과를 확인할 수 있습니다.
 
 
 
