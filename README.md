@@ -1,25 +1,46 @@
-# smart_file_manager
+# Smart File Manager (C++)
 
-C++ 표준 라이브러리를 활용한 파일생성 및 관리하는 시스템
- <br> <br>
+프로젝트 개요
 
-Tool: Visual Studio 2022 <br>
-면접 과제 후 리팩토링하고 입력값을 받도록 업그레이드하였습니다.
- <br> <br> <br>
-주요기능<br>
-스마트 포인터 를 활용해 알아서 관리하도록 설정 
- <br> <br> <br>
+본 프로젝트는 면접 과제 이후 리팩토링을 통해 개선한  
+C++ 기반 파일 생성 및 관리 프로그램입니다.
+
+파일 생성, 삭제, 이름 변경, 내용 쓰기 기능을 제공하며,  
+스마트 포인터를 사용해 파일 자원을 안전하게 관리하도록 구현했습니다.
 
 
-헤더 파일을 만들고 이 클래스가 어떤 기능을 제공하는지 한눈에 파악할 수 있도록 설계<br>
+
  
+주요 기능
+ switch-case 사용자 입력을 받아 다음의 기능을 선택해 실행
+ 파일 생성 및 열기
+ 파일 내용 쓰기 / 읽기
+ 파일 삭제 및 이름 변경 
+
+
+특징
+std::unique_ptr 스마트포인터를 사용해 파일 스트림의 단일 소유권 관리
+C++ 표준 라이브러리filesystem, fstream 활용
+헤더 / 구현 파일 분리를 통한 구조 정리
+
+
+배운 점
+ 참조(&)를 활용해 객체를 효율적으로 수정
+ 스마트 포인터를 사용한 자원 관리 방식
+ filesystem API를 통한 파일 관리
+ 
+개발 환경
+
+- Language: C++
+- IDE: Visual Studio 2022
+
+
+
+
 구현 파일 Logfile_manager_project.cpp<br>
 실행 파일 Logfile_manager_project_input.cpp<br>
 
-
-<br> <br> <br>
-while (true) {}로 실행 상태를 유지하고 <br>
-switch-case로 메소드 실행을 구분했습니다
+ 
 <br><br><br><br><br>
 
 
