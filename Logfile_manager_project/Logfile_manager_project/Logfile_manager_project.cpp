@@ -39,7 +39,7 @@ void LogFileManager::make_or_open_File(const std::string& filename) {
 }
 
 void LogFileManager::write_File(const std::string& filename, const std::string& message) {
-    auto it = logFiles.find(filename);
+    auto it = logFiles.find(filename);   //std::map<std::string, std::unique_ptr<std::fstream>>::iterator 를 반환
 
     if (it != logFiles.end()) {
         auto now = std::chrono::system_clock::now();
